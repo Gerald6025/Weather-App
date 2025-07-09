@@ -18,7 +18,8 @@ function App() {
   };
 
   return (
-    <div className=' bg-[url(pexels-pixabay-531756.jpg)] bg-center bg-cover h-[100vh]'>
+    <div className=' bg-center bg-cover h-[100vh]'
+    style={{backgroundImage: `url('/pexels-pixabay-531756.jpg')` }} >
       <div className='bg-[#0000007e] h-[100vh] w-full flex flex-col justify-center items-center gap-20 pt-10 text-white'>
       <header className='text-5xl'>
         <h1>Weather App</h1>
